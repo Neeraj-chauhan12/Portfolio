@@ -16,12 +16,12 @@ const App = () => {
       {
         path:"/",
         element:<div>
-            {/* <Navbar />
+           <Navbar />
           <Home />
           <Experience />
           <Page2 />
           <Contact /> 
-          <Footer />  */}
+          <Footer />  
           <About />
            </div> 
         
