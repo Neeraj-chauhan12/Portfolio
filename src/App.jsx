@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Page2 from './pages/Page2';
 import Footer from './pages/Footer';
 import About from './pages/About';
+import Portfolio from './pages/Portfolio';
 
 
 const App = () => {
@@ -18,11 +19,14 @@ const App = () => {
         element:<div>
            <Navbar />
           <Home />
-          <Experience />
           <Page2 />
+          <Portfolio />
+          <Experience />
+          <About />
           <Contact /> 
           <Footer />  
-          <About />
+          
+          
            </div> 
         
     },
@@ -41,6 +45,24 @@ const App = () => {
           <Navbar />
           <Experience />
           <Page2 />
+          <Footer />
+  
+        </div>   
+    },
+    {
+      path:"/About",
+      element:<div>
+          <Navbar />
+          <About />
+          <Footer />
+  
+        </div>   
+    },
+    {
+      path:"/Portfolio",
+      element:<div>
+          <Navbar />
+          <Portfolio />
           <Footer />
   
         </div>   

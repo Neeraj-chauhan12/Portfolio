@@ -19,7 +19,7 @@ const Contact = () => {
 
   return (
     <>
-    <div className='max-w-screen-2xl h-screen md:h-auto bg-black flex justify-center gap-2 pt-10 pb-5 items-center flex-col '>
+    <div className='max-w-screen-2xl h-screen md:h-auto bg-black flex justify-center gap-2 md:px-0 px-5 pt-10 pb-5 items-center flex-col '>
       <h1 className='md:text-7xl text-5xl text-white uppercase'>contact me..</h1>
 
       <h1 className='md:text-5xl text-3xl text-blue-500'>Fill the form and work with me</h1>

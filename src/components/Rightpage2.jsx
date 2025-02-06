@@ -10,7 +10,7 @@ function photo(){
   return (
     <>
     <div className='md:w-1/2 h-auto md:h-screen md:px-14 px-3 text-justify  flex flex-col text-white justify-center items-start'>
-    <h1 className='md:text-3xl text-sm md:p-0 px-36 text-blue-600 mt-10 md:mb-2'>My Skills</h1>
+    <h1 className='md:text-3xl text-sm md:p-0 px-32 text-blue-600 mt-10 md:mb-2'>My Skills</h1>
     <h2 className='md:text-5xl text-2xl text-white my-3'>Beautifull & Unique Digital Experience</h2>
     <h1 className='opacity-70 mb-6'>
     Craft a stunning web experience with technologies like Three.js 

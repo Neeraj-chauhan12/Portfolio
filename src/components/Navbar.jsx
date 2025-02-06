@@ -15,8 +15,8 @@ const Navbar = () => {
         <div className=' hidden md:flex gap-10 text-2xl'>
             <Link to="/" >Home</Link>
             <Link to="/Experience">Experience</Link>
-            <Link to="">About</Link>
-            <Link to="">Portfolio</Link>
+            <Link to="/About">About</Link>
+            <Link to="/Portfolio">Portfolio</Link>
             <Link to="/Contact">Contact</Link>
             </div>
             <div className='md:hidden' onClick={()=> setmenu(!menu)}>
@@ -31,8 +31,8 @@ const Navbar = () => {
             <div className=' md:hidden flex h-screen justify-center   items-center gap-4 text-3xl flex-col'>
             <Link  onClick={()=>setmenu(!menu)} to="/">Home</Link>
             <Link onClick={()=>setmenu(!menu)} to="/Experience">Experience</Link>
-            <Link onClick={()=>setmenu(!menu)} to="">About</Link>
-            <Link onClick={()=>setmenu(!menu)} to="">Portfolio</Link>
+            <Link onClick={()=>setmenu(!menu)} to="/About">About</Link>
+            <Link onClick={()=>setmenu(!menu)} to="/Portfolio">Portfolio</Link>
             <Link onClick={()=>setmenu(!menu)} to="/Contact">Contact</Link>
          </div>
          </div>
