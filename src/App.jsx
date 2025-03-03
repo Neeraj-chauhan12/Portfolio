@@ -16,7 +16,8 @@ const App = () => {
     [
       {
         path:"/",
-        element:<div>
+        element:
+        <div>
            <Navbar />
           <Home />
           <Page2 />
@@ -25,9 +26,9 @@ const App = () => {
           <About />
           <Contact /> 
           <Footer />  
-          
-          
            </div> 
+           
+         
         
     },
     {
@@ -74,6 +75,8 @@ const App = () => {
   return (
     <div className='overflow-x-hidden'>
       <RouterProvider router={router} />
+    
+      
       
     </div>
   )

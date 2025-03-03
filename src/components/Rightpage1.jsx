@@ -38,7 +38,7 @@ const Rightpage1 = () => {
      
      <div className='flex md:flex-row flex-col gap-2'>
         <button onClick={photo} className='px-24 py-3 bg-blue-300 hover:bg-blue-700 rounded-full'>Download CV</button>
-        <Link to="/contact" className='px-24 py-3 bg-blue-300 rounded-full'>Contact</Link>
+        <Link to="/contact" className='px-32 py-3  bg-blue-300 rounded-full'>Contact</Link>
      </div>
 
      <div className='flex gap-4 pl-16 md:p-1 mt-8 text-3xl'>

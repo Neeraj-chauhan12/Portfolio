@@ -35,7 +35,7 @@ const Portfolio = () => {
         <h1 className='text-5xl mb-10 flex justify-center items-center '>My Project</h1>
         
        
-       <div className='h-auto w-screen flex md:flex-row flex-col md:mx-0 mx-5  gap-16 md:justify-evenly '>
+       <div className='h-auto w-screen flex md:flex-row flex-col md:mx-0 mx-7  gap-16 md:justify-evenly '>
        {
             data.map(({id,img,name,bt1,bt2})=>{
                 return(
