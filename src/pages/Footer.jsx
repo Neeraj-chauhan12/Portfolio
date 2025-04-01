@@ -52,8 +52,8 @@ const Footer = () => {
           <h1 className='text-4xl border-b-2  border-gray-300'>Social</h1>
           <div className='flex gap-3'>
             <Link to="https://www.instagram.com/i_m_neeraj_rajput?igsh=MTgyMm14OWV1NTBy" className='p-5 bg-gray-500 rounded-sm hover:bg-gray-200 text-4xl'>{<FaSquareInstagram/>}</Link>
-            <Link className='p-5 bg-gray-500 rounded-sm hover:bg-gray-200 text-4xl'>{<FaFacebook/>}</Link>
-            <Link to="www.linkedin.com/in/neeraj-chauhan-0746722b0" className='p-5 bg-gray-500 rounded-sm hover:bg-gray-200 text-4xl'>{< FaLinkedin/>}</Link>
+            <Link to="https://www.facebook.com/share/1ACTBu7jzA/" className='p-5 bg-gray-500 rounded-sm hover:bg-gray-200 text-4xl'>{<FaFacebook/>}</Link>
+            <Link to="https://www.linkedin.com/in/neeraj-chauhan-0746722b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className='p-5 bg-gray-500 rounded-sm hover:bg-gray-200 text-4xl'>{< FaLinkedin/>}</Link>
           </div>
 
         </div>

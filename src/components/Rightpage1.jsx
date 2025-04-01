@@ -42,10 +42,10 @@ const Rightpage1 = () => {
      </div>
 
      <div className='flex gap-4 pl-16 md:p-1 mt-8 text-3xl'>
-        <Link to="">{< FaFacebookF/>} </Link>
+        <Link to="https://www.facebook.com/share/1ACTBu7jzA/">{< FaFacebookF/>} </Link>
         <Link to="https://www.instagram.com/i_m_neeraj_rajput?igsh=MTgyMm14OWV1NTBy ">{<FaInstagramSquare />}</Link>
-        <Link to="">{< FaGithub  />}</Link>
-        <Link to="">{<FaLinkedin  />}</Link>
+        <Link to="https://github.com/Neeraj-chauhan12/">{< FaGithub  />}</Link>
+        <Link to="https://www.linkedin.com/in/neeraj-chauhan-0746722b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">{<FaLinkedin  />}</Link>
         <h1>{<FaPhone />}</h1>
      </div>
 
