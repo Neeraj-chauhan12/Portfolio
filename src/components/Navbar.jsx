@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className='md:w-screen w-screen z-10  overflow-x-hidden md:px-20 px-4 py-4 bg-gray-600 text-white flex justify-between items-center'>
+      <div className='md:w-screen w-screen z-10  overflow-x-hidden md:px-20 px-4 py-4 bg-linear-to-r/hsl from-indigo-500 to-teal-400 text-white flex justify-between items-center'>
         <h1 className=' uppercase text-2xl'>neeraj chauhan</h1>
         {/* desktop navbar */}
         <div className=' hidden md:flex gap-10 text-2xl'>
@@ -29,7 +29,7 @@ const Navbar = () => {
           {
             menu && (
               <div>
-            <div className=' md:hidden flex h-screen justify-center   items-center gap-4 text-3xl flex-col'>
+            <div className=' md:hidden flex h-screen justify-center  bg-linear-to-r/hsl from-indigo-500 to-teal-400  items-center gap-4 text-3xl flex-col'>
             <Link  onClick={()=>setmenu(!menu)} to="/">Home</Link>
             <Link onClick={()=>setmenu(!menu)} to="/Experience">Experience</Link>
             <Link onClick={()=>setmenu(!menu)} to="/About">About</Link>
