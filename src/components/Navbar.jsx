@@ -19,6 +19,7 @@ const Navbar = () => {
             <Link to="/Portfolio">Portfolio</Link>
             <Link to="/Contact">Contact</Link>
             </div>
+            
             <div className='md:hidden' onClick={()=> setmenu(!menu)}>
           { menu ?<IoCloseSharp size={24}/>: <AiOutlineMenu size={24}/>}
         </div>

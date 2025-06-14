@@ -41,12 +41,14 @@ const Rightpage1 = () => {
         <Link to="/contact" className='px-32 py-3  bg-blue-300 rounded-full'>Contact</Link>
      </div>
 
-     <div className='flex gap-4 pl-16 md:p-1 mt-8 text-3xl'>
-        <Link to="https://www.facebook.com/share/1ACTBu7jzA/">{< FaFacebookF/>} </Link>
-        <Link to="https://www.instagram.com/i_m_neeraj_rajput?igsh=MTgyMm14OWV1NTBy ">{<FaInstagramSquare />}</Link>
-        <Link to="https://github.com/Neeraj-chauhan12/">{< FaGithub  />}</Link>
-        <Link to="https://www.linkedin.com/in/neeraj-chauhan-0746722b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">{<FaLinkedin  />}</Link>
-        <h1>{<FaPhone />}</h1>
+     <div className=' gap-2 p-3 md:p-1 mt-4  flex justify-between text-3xl'>
+        <Link className='h-12 w-12' to="https://www.facebook.com/share/1ACTBu7jzA/"><img  src="https://static.vecteezy.com/system/resources/previews/018/930/698/non_2x/facebook-logo-facebook-icon-transparent-free-png.png" alt="" /> </Link>
+       
+        <Link className='h-12 w-12' to="https://github.com/Neeraj-chauhan12/"><img  src="https://static.vecteezy.com/system/resources/previews/046/437/248/original/github-logo-transparent-background-free-png.png" alt="" /></Link>
+        <Link className='h-12 w-12' to="https://www.linkedin.com/in/neeraj-chauhan-0746722b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="https://www.freepnglogos.com/uploads/linkedin-symbol-logo-22.png" alt="" /></Link>
+         <Link className='h-12 w-12' to="https://leetcode.com/u/Neeraj_chauhan123/" ><img  src="https://tse2.mm.bing.net/th?id=OIP.L2Jfuatqty2XAIUqYnr_pgHaHa&pid=Api&P=0&h=180" alt="" /></Link>
+      <Link className='h-12 w-12' to="https://www.instagram.com/i_m_neeraj_rajput?igsh=MTgyMm14OWV1NTBy "><img src="https://clipartcraft.com/images/instagram-logo-transparent-background-2.png" alt="" /></Link>
+       
      </div>
 
     </div>
