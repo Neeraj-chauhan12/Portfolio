@@ -46,7 +46,7 @@ const Portfolio = () => {
                     initial={{opcacity:0,scale:0}}
                     whileInView={{opcacity:1,scale:1}}
                     transition={{duration:1}}
-                    className='h-auto w-80 flex  border-2 border-gray-400 shadow-lg p-5 shadow-gray-200 flex-col' key={id}>
+                    className='h-auto w-80 flex rounded-2xl  border-2 border-gray-400 shadow-lg p-5 shadow-gray-200 flex-col' key={id}>
                         <img className='h-80 w-full object-contain' src={img} alt="" />
                         <h1 className='text-center text-3xl my-5'>{name}</h1>
                         <div className='flex'>

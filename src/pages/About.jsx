@@ -87,7 +87,7 @@ const About = () => {
   return (
     <>
     <div className='max-w-screen-2xl flex px-5 md:px-16 h-auto flex-col md:h-screen text-white bg-black'>
-      <h1 className=' flex justify-center  px-5 items-center text-5xl md:mb-0 mb-10 mt-2'>About some technologies</h1>
+      <h1 className=' flex justify-center  px-5 items-center text-5xl md:mt-14 md:mb-0 mb-10 mt-2'>About some technologies</h1>
       <div className='h-1/2 w-screen flex items-center gap-2 flex-wrap flex-row '>
         {
           data.map(({id,num,})=>{

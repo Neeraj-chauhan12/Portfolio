@@ -43,7 +43,7 @@ const Experience = () => {
                 data.map(({id, pic,name,para,view})=>{
                     return(
                     <div key={id}>
-                      <div className=' bg-gray-900 border-2 border-gray-800 p-2 h-auto w-96'>
+                      <div className=' bg-gray-900 rounded-2xl border-2 border-gray-800 p-2 h-auto w-96'>
                        <div>
                         <img className='h-40 w-full object-contain' src={pic} alt="" />
                        </div>
