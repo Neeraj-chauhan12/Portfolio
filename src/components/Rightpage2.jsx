@@ -24,7 +24,7 @@ function photo(){
     real-time features, and seamless APIs while ensuring optimized performance and engaging user experiences.
     </h1>
 
-    <button onClick={photo} className='md:px-24 px-32 md:mx-0 border-2 border-gray-100 py-2  md:py-4 my-9   text-white rounded-2xl bg-green-400'>Download CV</button>
+    <button onClick={photo} className='md:px-24 px-32 md:mx-0 border-2 border-gray-100 py-2  md:py-4 my-9   text-white rounded-2xl bg-green-500'>Download CV</button>
 
     </div>
       
