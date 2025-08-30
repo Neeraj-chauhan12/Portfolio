@@ -34,7 +34,7 @@ const Portfolio = () => {
 
   return (
     <>
-    <div className='max-w-screen-2xl md:h-screen h-auto bg-black text-white pt-10  '>
+    <div className='max-w-screen-2xl md:h-screen h-auto bg-gray-900 text-white pt-10  '>
         <h1 className='text-5xl mb-10 flex justify-center items-center '>My Project</h1>
         
        

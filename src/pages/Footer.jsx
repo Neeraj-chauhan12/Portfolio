@@ -15,7 +15,7 @@ const Footer = () => {
 
   return (
     <>
-    <div className=' max-w-screen-2xl container  bg-black h-auto text-white py-20 flex md:flex-row flex-col gap-5 justify-around items-center '>
+    <div className=' max-w-screen-2xl container  bg-gray-900 h-auto text-white py-20 flex md:flex-row flex-col gap-5 justify-around items-center '>
         <motion.div 
            initial={{opcacity:0, translateX: "100%"}}
            whileInView={{opcacity:1, translateX: 0}}

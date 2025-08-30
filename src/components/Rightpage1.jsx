@@ -22,18 +22,18 @@ const Rightpage1 = () => {
 
     <div className='md:w-1/2 w-full md:h-full h-auto flex flex-col justify-center  md:items-start p-4 md:pr-10 '>
 
-    <h1 className='md:text-2xl text-2xl'>Hi I m  
+    <h1 className='md:text-2xl text-center text-2xl'>Hi I m  
     </h1>
      {/* <span className='text-blue-600'>Frontend developer</span>  */}
     { <ReactTyped
-          className='text-4xl text-blue-700'
+          className='text-4xl text-center text-blue-700'
           strings={["Developer","Programmer","Coder"]}
           typeSpeed={60}
           backSpeed={50}
           loop={true}
         /> }
-    <h1 className='md:text-7xl text-4xl md:my-4 my-2 text-blue-700'>NEERAJ CHAUHAN</h1>
-    <p className='md:mb-14 mb-5'>Creative and detail-oriented web developer skilled in HTML,CSS,Javascript,and MERN stack. Experience in building responsive
+    <h1 className='md:text-7xl text-4xl md:my-4 my-2 text-center text-blue-700'>NEERAJ CHAUHAN</h1>
+    <p className='md:mb-14 mb-5 text-center '>Creative and detail-oriented web developer skilled in HTML,CSS,Javascript,and MERN stack. Experience in building responsive
         ,user-friendly websites and application,ensuring seamless functionality and exceptional user Experience.
     </p>
      

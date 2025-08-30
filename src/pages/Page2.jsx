@@ -5,7 +5,7 @@ import Rightpage2 from '../components/Rightpage2'
 const Page2 = () => {
   return (
     <>
-      <div className='max-w-screen-2xl h-auto md:flex-row flex-col-reverse md:h-screen container bg-black flex'>
+      <div className='max-w-screen-2xl h-auto md:flex-row flex-col-reverse md:h-screen container bg-gray-900 flex'>
       <Leftpage2 />
       <Rightpage2 />
       </div>

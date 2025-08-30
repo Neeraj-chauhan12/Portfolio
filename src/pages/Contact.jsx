@@ -43,18 +43,16 @@ const Contact=()=>{
 
   return (
     <>
-     <div className='max-w-screen-2xl h-screen md:h-auto bg-black flex justify-center gap-2 md:px-0 px-5 pt-10 pb-5 items-center flex-col '>
-      <h1 className='md:text-7xl text-5xl text-white uppercase'>contact me..</h1>
-
-      <h1 className='md:text-5xl text-3xl text-blue-500'>Fill the form and work with me</h1>
-      <div className='h-auto md:px-12 px-5 mt-4 rounded-lg md:w-96 w-76 bg-black border-2 border-green-400'>
+     <div className='max-w-screen-2xl h-screen md:h-auto bg-gray-900 flex justify-center gap-2 md:px-0 px-5 pt-10 pb-5 items-center flex-col '>
+      <h1 className='md:text-7xl text-5xl text-pink-600 uppercase'>contact <span className='text-blue-500'>me..</span></h1>
+      <div className='h-auto md:px-5 px-5 mt-4 rounded-lg md:w-96 w-76 bg-black border-4 border-blue-400 shadow-2xl shadow-gray-500'>
         <form
-        className='flex flex-col  md:px-2 gap-3 md:gap-7 py-5' 
+        className='flex flex-col md:px-1 gap-3 md:gap-7 py-5' 
          ref={form} onSubmit={sendEmail}
         
          >
           <input
-             className='w-64  text-3xl rounded-lg bg-transparent placeholder:text-2xl text-white border-2 border-gray-100  '
+             className='w-full text-sm md:text-3xl rounded-lg bg-transparent px-2 placeholder:text-2xl text-white border-2 border-gray-100  '
              placeholder='Enter the  name...'
              required
              value={name}
@@ -63,7 +61,7 @@ const Contact=()=>{
              name="name" />
 
              <input
-             className='w-64  text-3xl rounded-lg bg-transparent placeholder:text-2xl border-2 text-white border-gray-100  '
+             className='w-full  text-sm md:text-3xl rounded-lg bg-transparent px-2 placeholder:text-2xl  border-2 text-white border-gray-100  '
              placeholder='Enter the email...'
              required
              value={email}
@@ -72,7 +70,7 @@ const Contact=()=>{
              name="email" />
 
              <input
-             className='w-64 text-3xl rounded-lg bg-transparent placeholder:text-2xl text-white border-2 border-gray-100  '
+             className='w-full text-sm md:text-3xl rounded-lg bg-transparent px-2 placeholder:text-2xl border-2 text-white border-gray-100  '
              placeholder='Enter the password...'
              required
              value={password}
@@ -83,7 +81,7 @@ const Contact=()=>{
 
            
 <textarea
-             className='w-64  text-3xl rounded-lg bg-transparent placeholder:text-2xl text-white border-2 border-gray-100  '
+             className='w-full  text-sm md:text-3xl rounded-lg bg-transparent px-2 placeholder:text-2xl border-2 text-white border-gray-100  '
              placeholder='Enter the message...'
              required
              value={message}
@@ -93,7 +91,7 @@ const Contact=()=>{
 
 
             
-            <button type='submit' className='w-64  bg-blue-200 rounded-3xl hover:bg-blue-700 hover:text-white py-2 px-5'>Submit</button>
+            <button type='submit' className='w-full   rounded-3xl bg-pink-600 hover:text-white py-2 px-5'>Submit</button>
             
         </form>
     </div>

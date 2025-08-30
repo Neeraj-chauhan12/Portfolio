@@ -6,7 +6,7 @@ import Rightpage1 from '../components/Rightpage1'
 const Home = () => {
   return (
     <>
-    <div className=' flex flex-col md:flex-row h-auto md:h-screen max-w-screen-2xl text-white bg-black container'>
+    <div className=' flex flex-col md:flex-row h-auto md:h-screen max-w-screen-2xl text-white bg-gray-900 container'>
     
     
 <Leftpage1 />
