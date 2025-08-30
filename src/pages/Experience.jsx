@@ -32,7 +32,7 @@ const Experience = () => {
     <>
     <div className='md:max-w-screen-2xl container w-screen md:h-screen h-auto  md:px-7 bg-gray-900 text-white'>
 
-     <div className=' bg-gray-900 h-full px-5 md:px-0  w-full'>
+     <div className=' bg-gray-900 h-full px-8 md:px-0  w-full'>
         <div className='flex justify-center items-center flex-col md:px-80 h-auto   md:py-10 w-full'>
             <h1 className='md:text-3xl mt-6 text-sm text-blue-600'>My Expertise</h1>
             <h1 className='md:text-7xl text-2xl text-center'>Provide wide range of digial service</h1>

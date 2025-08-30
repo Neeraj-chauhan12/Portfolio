@@ -24,7 +24,7 @@ const Footer = () => {
           <h1 className='text-center text-5xl hover:bg-gray-500 border-l-8 border-r-8 border-gray-300'>The Potfolio website</h1>
           <p className='mt-8'>Portfolio websites showcase a web developer’s skills, projects, and experience.  
             A good portfolio includes an intuitive layout, responsive design, clear navigation, and contact information.</p>
-             <Link to="https://studypl.netlify.app" className='text-2xl py-5 flex justify-center items-center mt-10 bg-blue-300 uppercase hover:bg-blue-700 rounded-md'>get a website</Link>
+             <Link to="https://studypl.netlify.app" className='text-2xl py-2 md:py-5 flex justify-center items-center mt-10 bg-blue-300 uppercase hover:bg-blue-700 rounded-md'>get a website</Link>
         </motion.div>
         <motion.div 
           initial={{opcacity:0, translateX: "-100%"}}
