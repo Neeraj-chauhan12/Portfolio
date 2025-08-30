@@ -52,7 +52,7 @@ const Contact=()=>{
         
          >
           <input
-             className='w-full text-sm md:text-3xl rounded-lg bg-transparent px-2 placeholder:text-2xl text-white border-2 border-gray-100  '
+             className='w-full text-sm md:text-3xl py-2 rounded-lg bg-transparent px-2 placeholder:text-sm text-white border-2 border-gray-100  '
              placeholder='Enter the  name...'
              required
              value={name}
@@ -61,7 +61,7 @@ const Contact=()=>{
              name="name" />
 
              <input
-             className='w-full  text-sm md:text-3xl rounded-lg bg-transparent px-2 placeholder:text-2xl  border-2 text-white border-gray-100  '
+             className='w-full  text-sm md:text-3xl py-2 rounded-lg bg-transparent px-2 placeholder:text-sm  border-2 text-white border-gray-100  '
              placeholder='Enter the email...'
              required
              value={email}
@@ -70,7 +70,7 @@ const Contact=()=>{
              name="email" />
 
              <input
-             className='w-full text-sm md:text-3xl rounded-lg bg-transparent px-2 placeholder:text-2xl border-2 text-white border-gray-100  '
+             className='w-full text-sm md:text-3xl py-2 rounded-lg bg-transparent px-2 placeholder:text-sm border-2 text-white border-gray-100  '
              placeholder='Enter the password...'
              required
              value={password}
@@ -81,7 +81,7 @@ const Contact=()=>{
 
            
 <textarea
-             className='w-full  text-sm md:text-3xl rounded-lg bg-transparent px-2 placeholder:text-2xl border-2 text-white border-gray-100  '
+             className='w-full  text-sm md:text-3xl py-2 rounded-lg bg-transparent px-2 placeholder:text-sm border-2 text-white border-gray-100  '
              placeholder='Enter the message...'
              required
              value={message}
