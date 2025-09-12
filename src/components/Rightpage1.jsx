@@ -7,7 +7,7 @@ import { FaPhone } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
  import { ReactTyped } from "react-typed";
  import {saveAs} from "file-saver"
- import pic from "../../public/neeraj.jpg"
+ import pic from "../../public/Screenshot 2025-09-12 150141.png"
  import { Link } from 'react-router-dom';
 
 

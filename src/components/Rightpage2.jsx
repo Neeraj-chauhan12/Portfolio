@@ -1,6 +1,6 @@
 import React from 'react'
 import {saveAs} from "file-saver"
-import pic from '../../public/neeraj.jpg'
+import pic from '../../public/Screenshot 2025-09-12 150141.png'
 
 const Rightpage2 = () => {
 function photo(){
