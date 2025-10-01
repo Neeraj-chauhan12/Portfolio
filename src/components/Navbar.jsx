@@ -3,6 +3,8 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
 import { Link } from 'react-router-dom';
 
+
+
 const Navbar = () => {
 
   const [menu,setmenu]=useState(false);

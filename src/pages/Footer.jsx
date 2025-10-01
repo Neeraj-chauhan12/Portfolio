@@ -71,9 +71,9 @@ const Footer = () => {
 
           <div className=' flex  gap-2 items-center w-80 '>
             
-            <Link  to="https://www.linkedin.com/in/neeraj-chauhan-0746722b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FaLinkedin className='text-5xl'/></Link>
+            <Link  to="https://www.linkedin.com/in/neeraj264"><FaLinkedin className='text-5xl'/></Link>
             <Link to="https://www.instagram.com/i_m_neeraj_rajput?igsh=MTgyMm14OWV1NTBy" ><FaInstagram className='text-5xl' /></Link>
-            <Link to="https://leetcode.com/u/Neeraj_chauhan123/" ><SiLeetcode className='text-5xl'/></Link>
+            <Link to="https://leetcode.com/u/Neeraj264/" ><SiLeetcode className='text-5xl'/></Link>
              <Link to="https://www.facebook.com/share/1ACTBu7jzA/"><FaFacebookF  className='text-5xl'/></Link> 
   
     </div>

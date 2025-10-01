@@ -46,8 +46,8 @@ const Rightpage1 = () => {
         <Link className='h-12 w-12' to="https://www.facebook.com/share/1ACTBu7jzA/"><FaFacebookF /> </Link>
        
         <Link className='h-12 w-12' to="https://github.com/Neeraj-chauhan12/"><FaGithub /></Link>
-        <Link className='h-12 w-12' to="https://www.linkedin.com/in/neeraj-chauhan-0746722b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FaLinkedin /></Link>
-         <Link className='h-12 w-12' to="https://leetcode.com/u/Neeraj_chauhan123/" ><SiLeetcode /></Link>
+        <Link className='h-12 w-12' to="https://www.linkedin.com/in/neeraj-chauhan123/"><FaLinkedin /></Link>
+         <Link className='h-12 w-12' to="https://leetcode.com/u/Neeraj264/" ><SiLeetcode /></Link>
       <Link className='h-12 w-12' to="https://www.instagram.com/i_m_neeraj_rajput?igsh=MTgyMm14OWV1NTBy "><FaInstagramSquare /></Link>
        
      </div>
