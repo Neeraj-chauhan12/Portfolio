@@ -1,85 +1,39 @@
-import React from 'react'
-import { createBrowserRouter,RouterProvider } from "react-router-dom";
-import Home from './pages/Home';
-import Contact from './pages/Contact';
-import Experience from './pages/Experience';
-import Navbar from './components/Navbar';
-import Page2 from './pages/Page2';
-import Footer from './pages/Footer';
-import About from './pages/About';
-import Portfolio from './pages/Portfolio';
+import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom'
+import Home from './pages/Home'
+import Contact from './pages/Contact'
+import Experience from './pages/Experience'
+import Navbar from './components/Navbar'
+import Page2 from './pages/Page2'
+import Footer from './pages/Footer'
+import About from './pages/About'
+import Portfolio from './pages/Portfolio'
 
+const RootLayout = () => (
+  <div className='overflow-x-hidden'>
+    <Navbar />
+    <Outlet />
+    <Footer />
+  </div>
+)
 
 const App = () => {
-
- const router = createBrowserRouter(
-    [
-      {
-        path:"/",
-        element:
-        <div>
-           <Navbar />
-          <Home />
-          <Page2 />
-          <Portfolio />
-          <Experience />
-          <About />
-          <Contact /> 
-          <Footer />  
-           </div> 
-           
-         
-        
-    },
+  const router = createBrowserRouter([
     {
-        path:"/Contact",
-        element:<div>
-          <Navbar />
-          <Contact />
-          <Footer />
-        
-        </div>   
-    },
-    {
-      path:"/Experience",
-      element:<div>
-          <Navbar />
-          <Experience />
-          <Page2 />
-          <Footer />
-  
-        </div>   
-    },
-    {
-      path:"/About",
-      element:<div>
-          <Navbar />
-          <About />
-          <Footer />
-  
-        </div>   
-    },
-    {
-      path:"/Portfolio",
-      element:<div>
-          <Navbar />
-          <Portfolio />
-          <Footer />
-  
-        </div>   
+      path: '/',
+      element: <RootLayout />,
+      children: [
+        { index: true, element: <div><Home /><Page2 /><Portfolio /><Experience /><About /><Contact /></div> },
+        { path: 'Contact', element: <Contact /> },
+        { path: 'Experience', element: <div><Experience /><Page2 /></div> },
+        { path: 'About', element: <About /> },
+        { path: 'Portfolio', element: <Portfolio /> },
+      ]
     }
+  ])
 
-    ]
-  )
-
-  return (
-    <div className='overflow-x-hidden'>
-      <RouterProvider router={router} />
-    
-      
-      
-    </div>
-  )
+  return <RouterProvider router={router} />
 }
 
 export default App
+
+

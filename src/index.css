@@ -1,2 +1,8 @@
 @import "tailwindcss";
 
+:root {
+	--accent: #2563eb;
+}
+
+/* small helper to use accent as text color */
+.accent-text { color: var(--accent); }
