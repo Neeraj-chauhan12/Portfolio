@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import food from '../../public/food.png'
 import todo from '../../public/todolist.png'
 import port from '../../public/ptr.png'
+import realtime from '../../public/realtime.png'
 import { motion } from 'framer-motion'
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa'
 
@@ -9,16 +10,24 @@ const Portfolio = () => {
   const [hoveredId, setHoveredId] = useState(null)
 
   const data = [
-    {
+     {
       id: 1,
-      img: food,
-      name: "Food Website",
-      description: "A modern food delivery platform with React and Tailwind CSS",
-      bt1: "https://foodwebneeraj.netlify.app/",
-      bt2: "https://github.com/Neeraj-chauhan12/foodweb"
+      img: realtime,
+      name: "Real-time Chat App",
+      description: "A chat application with real-time messaging using WebSockets",
+      bt1: "https://chat-app-0zpk.onrender.com/",
+      bt2: "https://github.com/Neeraj-chauhan12/chat-app"
     },
     {
       id: 2,
+      img: food,
+      name: "Social media app",
+      description: "A social media platform with user authentication and real-time updates",
+      bt1: "https://food-app-1-8ys2.onrender.com/",
+      bt2: "https://github.com/Neeraj-chauhan12/food-app"
+    },
+    {
+      id: 3,
       img: todo,
       name: "To-Do List App",
       description: "Feature-rich task management application with local storage",
@@ -26,7 +35,7 @@ const Portfolio = () => {
       bt2: "https://github.com/Neeraj-chauhan12/To-Do-List"
     },
     {
-      id: 3,
+      id: 4,
       img: port,
       name: "Portfolio",
       description: "Personal portfolio showcasing projects and skills",

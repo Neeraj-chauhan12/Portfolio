@@ -6,7 +6,7 @@ import Navbar from './components/Navbar'
 import Page2 from './pages/Page2'
 import Footer from './pages/Footer'
 import About from './pages/About'
-import Portfolio from './pages/Portfolio'
+import Projects from './pages/Projects'
 
 const RootLayout = () => (
   <div className='overflow-x-hidden'>
@@ -22,11 +22,11 @@ const App = () => {
       path: '/',
       element: <RootLayout />,
       children: [
-        { index: true, element: <div><Home /><Page2 /><Portfolio /><Experience /><About /><Contact /></div> },
+        { index: true, element: <div><Home /><Page2 /><Projects /><Experience /><About /><Contact /></div> },
         { path: 'Contact', element: <Contact /> },
         { path: 'Experience', element: <div><Experience /><Page2 /></div> },
         { path: 'About', element: <About /> },
-        { path: 'Portfolio', element: <Portfolio /> },
+        { path: 'Projects', element: <Projects /> },
       ]
     }
   ])
