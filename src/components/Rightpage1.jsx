@@ -70,7 +70,7 @@ const Rightpage1 = () => {
 
         <Link to='/contact' className='px-6 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-full'>Contact</Link>
 
-        <Link to='/portfolio' className='px-6 py-2 bg-gray-200 hover:bg-gray-300 rounded-full text-gray-800'>See Projects</Link>
+        <Link to='/projects' className='px-6 py-2 bg-gray-200 hover:bg-gray-300 rounded-full text-gray-800'>See Projects</Link>
       </div>
 
       <div className='mt-4 flex justify-center items-center gap-3'>
@@ -91,7 +91,7 @@ const Rightpage1 = () => {
         </button>
 
         <a href='tel:+1234567890' className='flex items-center gap-1 text-sm text-gray-700'>
-          <FaPhoneAlt /> <span className='hidden md:inline'>+1 234 567 890</span>
+          <FaPhoneAlt /> <span className='hidden md:inline'>+91 9917672322</span>
         </a>
       </div>
 
