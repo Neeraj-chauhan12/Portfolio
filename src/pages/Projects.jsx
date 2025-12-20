@@ -2,7 +2,9 @@ import React, { useState } from 'react'
 import food from '../../public/food.png'
 import todo from '../../public/todolist.png'
 import port from '../../public/ptr.png'
+import gemini from '../../public/p1.jpeg'
 import realtime from '../../public/realtime.png'
+import social from '../../public/cllg.jpg'
 import { motion } from 'framer-motion'
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa'
 
@@ -20,7 +22,7 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      img: food,
+      img: social,
       name: "Social media app",
       description: "A social media platform with user authentication and real-time updates",
       bt1: "https://food-app-1-8ys2.onrender.com/",
@@ -41,7 +43,15 @@ const Portfolio = () => {
       description: "Personal portfolio showcasing projects and skills",
       bt1: "https://scintillating-sunburst-b5255f.netlify.app/",
       bt2: "https://github.com/Neeraj-chauhan12/Portfolio"
-    }
+    },
+      {
+      id: 5,
+      img: gemini,
+      name: "Real-time Chat Bot",
+      description: "A chat bot with real-time responses using Gemini API",
+      bt1: "https://gemini-1-8oo0.onrender.com",
+      bt2: "https://github.com/Neeraj-chauhan12/Gemini"
+    },
   ]
 
   const containerVariants = {
