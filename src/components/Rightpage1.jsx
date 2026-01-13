@@ -90,7 +90,7 @@ const Rightpage1 = () => {
           {copied ? 'Email copied' : 'Copy email'}
         </button>
 
-        <a href='tel:+1234567890' className='flex items-center gap-1 text-sm text-gray-700'>
+        <a href='tel:+91 9917672322' className='flex items-center gap-1 text-sm text-gray-700'>
           <FaPhoneAlt /> <span className='hidden md:inline'>+91 9917672322</span>
         </a>
       </div>
