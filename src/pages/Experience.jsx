@@ -13,7 +13,7 @@ const Experience = () => {
             pic: weddes,
             name: "Web Design",
             para: "Creating visually appealing, user-friendly, and functional websites by combining layout, color, typography, and interactive elements effectively.",
-            view: "Learn More"
+            view: "Learn More",
         },
         {
             id: 2,

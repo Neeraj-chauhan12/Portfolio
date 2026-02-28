@@ -22,7 +22,7 @@ const Footer = () => {
     "Web design & development",
     "Website speed optimization",
     "Responsive design",
-    "SEO optimization"
+    "SEO optimization",
   ]
 
   const resources = [
