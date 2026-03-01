@@ -100,7 +100,7 @@ const Footer = () => {
               <FaLocationPin className='text-blue-500 text-lg' />
               <div>
                 <p className='text-xs text-gray-500'>Location</p>
-                <p className='text-sm text-gray-300'>Agra, India</p>
+                <p className='text-sm text-gray-300'>Agra(UP), India</p>
               </div>
             </div>
           </div>
@@ -128,7 +128,7 @@ const Footer = () => {
 
       {/* Bottom Section */}
       <div className='border-t border-gray-700 pt-8 text-center'>
-        <p className='text-gray-400 text-sm'>© 2025 Neeraj Chauhan. All rights reserved.</p>
+        <p className='text-gray-400 text-sm'>© 2025 Neeraj Chauhan.  All rights reserved.</p>
         <p className='text-gray-500 text-xs mt-2'>Built with React, Tailwind CSS & Framer Motion</p>
       </div>
     </footer>
