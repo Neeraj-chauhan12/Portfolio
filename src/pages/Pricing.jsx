@@ -60,8 +60,8 @@ const Pricing = () => {
       id: 3,
       name: 'Full Stack',
       pages: '10-12 Pages + Full App',
-      price: 19999,
-      basePrice: 19999,
+      price: 18999,
+      basePrice: 18999,
       description: 'Enterprise solutions with complete functionality',
       features: [
         'Everything in Professional +',
