@@ -18,8 +18,8 @@ const Pricing = () => {
       id: 1,
       name: 'Starter',
       pages: '3-4 Pages',
-      price: 5999,
-      basePrice: 5999,
+      price: 9999,
+      basePrice: 9999,
       description: 'Perfect for small businesses and portfolios',
       features: [
         'Modern & Responsive Design',
@@ -38,8 +38,8 @@ const Pricing = () => {
       id: 2,
       name: 'Professional',
       pages: '5-7 Pages + Features',
-      price: 9999,
-      basePrice: 9999,
+      price: 14999,
+      basePrice: 14999,
       description: 'Ideal for growing businesses with advanced needs',
       features: [
         'Everything in Starter +',
