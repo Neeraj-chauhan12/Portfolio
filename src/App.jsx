@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
 import Experience from './pages/Experience'
@@ -10,35 +10,39 @@ import Projects from './pages/Projects'
 import Pricing from './pages/Pricing'
 import FloatingButtons from './components/FloatingButtons'
 
-const RootLayout = () => (
-  <div className='overflow-x-hidden'>
-    <Navbar />
-    <Outlet />
-    <Footer />
-    <FloatingButtons />
-  </div>
-)
-
 const App = () => {
-  const router = createBrowserRouter([
-    {
-      path: '/',
-      element: <RootLayout />,
-      children: [
-        { index: true, element: <div><Home /><Page2 /> <Projects /> <Pricing /><Experience /><About /><Contact /></div> },
-        { path: 'Contact', element: <Contact /> },
-        { path: 'Pricing', element: <Pricing /> },
-        { path: 'Experience', element: <div><Experience /><Page2 /></div> },
-        { path: 'About', element: <About /> },
-        { path: 'Projects', element: <Projects /> },
-       
-        
-      ]
-    } 
+  return (
+    <Router>
+      <div className='overflow-x-hidden'>
+        <Navbar />
 
-  ])
+        <Routes>
+          <Route
+            path='/'
+            element={
+              <>
+                <Home />
+                <Page2 />
+                <Projects />
+                <Pricing />
+                <Experience />
+                <About />
+                <Contact />
+              </>
+            }
+          />
+          <Route path='/Contact' element={<Contact />} />
+          <Route path='/Pricing' element={<Pricing />} />
+          <Route path='/Experience' element={<Experience />} />
+          <Route path='/About' element={<About />} />
+          <Route path='/Projects' element={<Projects />} />
+        </Routes>
 
-  return <RouterProvider router={router}   />
+        <Footer />
+        <FloatingButtons />
+      </div>
+    </Router>
+  )
 }
 
 export default App
