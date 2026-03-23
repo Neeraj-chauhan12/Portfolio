@@ -8,12 +8,14 @@ import Footer from './pages/Footer'
 import About from './pages/About'
 import Projects from './pages/Projects'
 import Pricing from './pages/Pricing'
+import FloatingButtons from './components/FloatingButtons'
 
 const RootLayout = () => (
   <div className='overflow-x-hidden'>
     <Navbar />
     <Outlet />
     <Footer />
+    <FloatingButtons />
   </div>
 )
 
@@ -29,11 +31,14 @@ const App = () => {
         { path: 'Experience', element: <div><Experience /><Page2 /></div> },
         { path: 'About', element: <About /> },
         { path: 'Projects', element: <Projects /> },
+       
+        
       ]
-    }
+    } 
+
   ])
 
-  return <RouterProvider router={router} />
+  return <RouterProvider router={router}   />
 }
 
 export default App
