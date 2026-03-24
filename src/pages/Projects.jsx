@@ -5,6 +5,8 @@ import port from '../../public/ptr.png'
 import gemini from '../../public/p1.jpeg'
 import realtime from '../../public/realtime.png'
 import social from '../../public/cllg.jpg'
+import school from '../../public/demonSchool.png'
+import restorant from '../../public/demoRestorant.png'
 import { motion } from 'framer-motion'
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa'
 
@@ -52,6 +54,23 @@ const Portfolio = () => {
       bt1: "https://gemini-1-8oo0.onrender.com",
       bt2: "https://github.com/Neeraj-chauhan12/Gemini"
     },
+    {
+      id: 6,
+      img: school,
+      name: "Demonstration School App",
+      description: "A school management application with student and teacher features",
+      bt1: "https://freelancing-school-website.netlify.app/",
+      bt2: "https://github.com/Neeraj-chauhan12/freelancing-school-website"
+    },
+    {
+      id: 7,
+      img: restorant,
+      name: "Demo Restaurant App",
+      description: "A restaurant management application with menu and order features",
+      bt1: "https://freelancing-restorant.netlify.app/",
+      bt2: "https://github.com/Neeraj-chauhan12/freelencing-restorantwebsite"
+    }
+
   ]
 
   const containerVariants = {
