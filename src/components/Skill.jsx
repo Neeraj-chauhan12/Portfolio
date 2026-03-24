@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { saveAs } from 'file-saver'
 
-const Rightpage2 = () => {
+const Skill = () => {
   const [downloading, setDownloading] = useState(false)
 
   async function downloadCV() {
@@ -46,4 +46,4 @@ const Rightpage2 = () => {
   )
 }
 
-export default Rightpage2
+export default Skill

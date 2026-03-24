@@ -5,7 +5,7 @@ import { ReactTyped as Typed } from 'react-typed'
 import { saveAs } from 'file-saver'
 import { Link } from 'react-router-dom'
 
-const Rightpage1 = () => {
+const AboutData = () => {
   const [showMore, setShowMore] = useState(false)
   const [copied, setCopied] = useState(false)
   const [downloading, setDownloading] = useState(false)
@@ -127,4 +127,4 @@ const Rightpage1 = () => {
   )
 }
 
-export default Rightpage1
+export default AboutData

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Leftpage2 = () => {
+const Certificate = () => {
   const [open, setOpen] = useState(false)
 
   return (
@@ -24,4 +24,4 @@ const Leftpage2 = () => {
   )
 }
 
-export default Leftpage2
+export default Certificate

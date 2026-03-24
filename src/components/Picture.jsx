@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Leftpage1 = () => {
+const Picture = () => {
   return (
     <div className='md:w-1/2 w-full h-full flex justify-center items-center'>
       <img
@@ -13,4 +13,4 @@ const Leftpage1 = () => {
   )
 }
 
-export default Leftpage1
+export default Picture
