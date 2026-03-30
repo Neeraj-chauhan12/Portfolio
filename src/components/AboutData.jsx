@@ -29,7 +29,7 @@ const AboutData = () => {
   }
 
   async function copyEmail() {
-    const email = 'neeraj@example.com'
+    const email = 'nc1676639@gmail.com'
     try {
       await navigator.clipboard.writeText(email)
       setCopied(true)
@@ -51,7 +51,7 @@ const AboutData = () => {
         loop
       />
 
-      <h1 className='md:text-6xl text-4xl md:my-4 my-2 text-center md:text-left text-blue-700'>NEERAJ CHAUHAN</h1>
+      <h1 className='md:text-6xl text-4xl md:my-4 my-2 text-center md:text-left text-blue-700'>NEERAJ CHAUHAN<span className='text-white text-sm'>(Freelancer)</span></h1>
 
       <p className='md:mb-6 mb-4 text-center md:text-left'>
         Creative and detail-oriented web developer skilled in HTML, CSS, JavaScript,
@@ -84,14 +84,14 @@ const AboutData = () => {
 
         <button
           onClick={copyEmail}
-          className='text-sm px-3 py-1 bg-gray-100 rounded'
+          className='text-sm text-black px-3 py-1 bg-gray-100 rounded'
           aria-label='Copy email'
         >
           {copied ? 'Email copied' : 'Copy email'}
         </button>
 
-        <a href='tel:+91 9917672322' className='flex items-center gap-1 text-sm text-gray-700'>
-          <FaPhoneAlt /> <span className='hidden md:inline'>+91 9917672322</span>
+        <a href='tel:+91 9917672322' className='flex items-center gap-1 text-sm text-gray-200'>
+          <FaPhoneAlt /> <span className='hidden  md:inline'>+91 9917672322</span>
         </a>
       </div>
 
