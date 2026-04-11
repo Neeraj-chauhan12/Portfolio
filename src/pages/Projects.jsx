@@ -3,7 +3,7 @@ import todo from "../../public/to-do.png";
 import port from "../../public/portfolio.png";
 import gemini from "../../public/gemini.png";
 import realtime from "../../public/realtime.png";
-import social from "../../public/cllg.jpg";
+import reel from "../../public/reel.png";
 import school from "../../public/demonSchool.png";
 import restorant from "../../public/demoRestorant.png";
 import interview from "../../public/Interview.png";
@@ -63,17 +63,17 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      img: social,
+      img: reel,
       name: "Social media app",
       description:
         "A social media platform with user authentication and real-time updates",
-      bt1: "https://food-app-1-8ys2.onrender.com/",
-      bt2: "https://github.com/Neeraj-chauhan12/food-app",
+      bt1: "https://social-media-web-wqqx.onrender.com",
+      bt2: "https://github.com/Neeraj-chauhan12/Social-media-web",
     },
 
     {
       id: 3,
-      img: interview,
+      img: gemini,
       name: "Real-time Chat Bot",
       description: "A chat bot with real-time responses using Gemini API",
       bt1: "https://gemini-1-8oo0.onrender.com",
@@ -82,7 +82,7 @@ const Portfolio = () => {
 
     {
       id: 4,
-      img: gemini,
+      img: interview,
       name: "Interview resume Analysis",
       description:
         "A resume analysis application that provides insights and feedback for job seekers",
