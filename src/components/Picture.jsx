@@ -6,7 +6,10 @@ const Picture = () => {
       <img
         src={'/my.jpeg'}
         alt='Neeraj Chauhan'
-        loading='lazy'
+        width={320}
+        height={320}
+        decoding='async'
+        loading='eager'
         className='h-80 w-80 object-cover mt-6 mb-6 md:-rotate-12 -rotate-12 rounded-full border-8 border-blue-500 shadow-lg transition-transform transform hover:scale-105'
       />
     </div>
