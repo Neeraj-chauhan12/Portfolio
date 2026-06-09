@@ -20,6 +20,7 @@ const Navbar = () => {
           <Link to='/About' className='px-3 py-1 rounded-md hover:bg-white/10 hover:text-white transition'>About</Link>
           <Link to='/Projects' className='px-3 py-1 rounded-md hover:bg-white/10 hover:text-white transition'>Projects</Link>
           <Link to='/Pricing' className='px-3 py-1 rounded-md hover:bg-white/10 hover:text-white transition'>Pricing</Link>
+          <Link to='/Reviews' className='px-3 py-1 rounded-md hover:bg-white/10 hover:text-white transition'>Reviews</Link>
           <Link to='/Contact' className='px-3 py-1 rounded-md hover:bg-white/10 hover:text-white transition'>Contact</Link>
         </div>
 
@@ -57,6 +58,9 @@ const Navbar = () => {
             </li>
             <li>
               <Link to='/Pricing' onClick={() => setIsOpen(false)}>Pricing</Link>
+            </li>
+            <li>
+              <Link to='/Reviews' onClick={() => setIsOpen(false)}>Reviews</Link>
             </li>
             <li>
               <Link to='/Contact' onClick={() => setIsOpen(false)}>Contact</Link>

@@ -8,6 +8,7 @@ import Footer from './pages/Footer'
 import About from './pages/About'
 import Projects from './pages/Projects'
 import Pricing from './pages/Pricing'
+import Reviews from './pages/Reviews'
 import FloatingButtons from './components/FloatingButtons'
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
                 <Projects />
                 <Pricing />
                 <Experience />
+                <Reviews />
                 <About />
                 <Contact />
               </>
@@ -36,6 +38,7 @@ const App = () => {
           <Route path='/Experience' element={<Experience />} />
           <Route path='/About' element={<About />} />
           <Route path='/Projects' element={<Projects />} />
+          <Route path='/Reviews' element={<Reviews />} />
         </Routes>
 
         <Footer />
