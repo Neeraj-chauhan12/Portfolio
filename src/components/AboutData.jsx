@@ -12,13 +12,13 @@ const AboutData = () => {
 
   async function downloadCV() {
     // Uses the public/ folder asset; put your CV or image in public and update filename if needed.
-    const url = '/Screenshot 2025-09-12 150141.png'
+    const url = '/resume.png'
     try {
       setDownloading(true)
       const res = await fetch(url)
       if (!res.ok) throw new Error('Network response was not ok')
       const blob = await res.blob()
-      saveAs(blob, 'neeraj.png')
+      saveAs(blob, 'neeraj_resume.png')
     } catch (err) {
       console.error('Download failed', err)
       // fallback: open in new tab
